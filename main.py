@@ -4,9 +4,9 @@
 #            Novoselov V. (%)
 import turtle as t
 t.hideturtle()
-t.speed(1) #потом изменить
+t.speed(1)  #потом изменить
 
-def triangle (x, y, a, c, k, h):
+def triangle(x, y, a, c, k, h):
     '''
     Function, drawing triangle, size and colour are optional.
     :param x: upper left corner coordinate x
@@ -18,7 +18,7 @@ def triangle (x, y, a, c, k, h):
     :return: None
     '''
     t.up()
-    t.setposition (x,y)
+    t.setposition(x,y)
     t.setheading(h)
     t.down()
     t.pencolor(k)
@@ -31,7 +31,7 @@ def triangle (x, y, a, c, k, h):
     t.forward(c)
     t.end_fill()
 
-def parall (x, y, a, b, h):
+def parall(x, y, a, b, h):
     '''
     Function, drawing parallelogram.
     :param x: upper left corner coordinate x
@@ -42,7 +42,7 @@ def parall (x, y, a, b, h):
     :return: None
     '''
     t.up()
-    t.setposition (x,y)
+    t.setposition(x,y)
     t.setheading(h)
     t.down()
     t.pencolor('green')
@@ -125,4 +125,3 @@ def main():
     t.done()
 
 main()
-
