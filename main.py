@@ -117,7 +117,7 @@ def main():
     triangle(334, -290, 85, 120, 'dodger blue', 45)
     triangle(333, -125, 41, 58, 'indigo', 270)
     triangle(396, -290, 41, 58, 'deep pink', 135)
-    rectangle(369, -259, 34, 45, 'red', 45)
+    rectangle(369, -259, 38, 45, 'red', 45)
     triangle(396, -290, 41, 58, 'deep pink', 135)
     triangle(316, -294, 58, 80, 'gold', 315)
     parall(271, -294, 40, 60, 0)
