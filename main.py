@@ -7,7 +7,7 @@ t.hideturtle()
 
 def triangle(x, y, a, c, k, h):
     '''
-    Function, drawing triangle, size and colour are optional.
+    Function, drawing triangle, size, colour and heading are optional.
     :param x: upper left corner coordinate x
     :param y: upper left corner coordinate y
     :param a: cathetus size
@@ -32,7 +32,7 @@ def triangle(x, y, a, c, k, h):
 
 def parall(x, y, a, b, h):
     '''
-    Function, drawing parallelogram.
+    Function, drawing parallelogram, size and heading are optional.
     :param x: upper left corner coordinate x
     :param y: upper left corner coordinate y
     :param a: first side size
@@ -58,7 +58,7 @@ def parall(x, y, a, b, h):
 
 def rectangle (x, y, a, b, c, h):
     '''
-    Function, drawing rectangle (if a=b it draws square).
+    Function, drawing rectangle (if a=b it draws square), size, colour and heading are optional.
     :param x: upper left corner coordinate x
     :param y: upper left corner coordinate y
     :param a: first side size
@@ -88,7 +88,7 @@ def main():
     Main function.
     :return: None
     '''
-    rectangle(-250, 340, 38, 38, 'red',0)
+    rectangle(-250, 340, 38, 38, 'red',0)  #drawing rabbit
     parall(-230, 343, 35, 50, 180)
     triangle(-334, 243, 80, 113, 'dodger blue', 0)
     triangle(-254, 239, 80, 113, 'lime', 180)
@@ -96,7 +96,7 @@ def main():
     triangle(-268, 199, 40, 57, 'indigo', 270)
     triangle(-250, 215, 41, 58, 'deep pink', 45)
 
-    triangle(360, 220, 58, 80, 'indigo',45)
+    triangle(360, 220, 58, 80, 'indigo',45)  #drawing kite
     triangle(277, 179, 80, 113, 'lime', 0)
     triangle(357, 263, 80, 113, 'dodger blue', 90)
     rectangle(300, 261, 38, 38, 'red', 45)
@@ -104,7 +104,7 @@ def main():
     triangle(212, 219, 40, 57, 'gold', 0)
     parall(215, 304, 40, 60, 0)
 
-    rectangle(300, 110, 38, 38, 'red', 45)
+    rectangle(300, 110, 38, 38, 'red', 45)  #drawing figure skater (man)
     triangle(326, 0, 80, 113, 'lime', 90)
     triangle(409, 80, 80, 113, 'dodger blue', 180)
     triangle(330, -3, 58, 80, 'gold', 270)
@@ -112,7 +112,7 @@ def main():
     triangle(262, -111, 40, 57, 'indigo', 0)
     triangle(407, -104, 40, 57, 'deep pink', 90)
 
-    triangle(250, -280, 80, 113, 'lime', 0)
+    triangle(250, -280, 80, 113, 'lime', 0)  #drawing ship
     triangle(334, -290, 85, 120, 'dodger blue', 45)
     triangle(333, -125, 41, 58, 'indigo', 270)
     triangle(396, -290, 41, 58, 'deep pink', 135)
@@ -121,7 +121,7 @@ def main():
     triangle(316, -294, 58, 80, 'gold', 315)
     parall(271, -294, 40, 60, 0)
 
-    rectangle(-300, 110, 38, 38, 'red', 45)
+    rectangle(-300, 110, 38, 38, 'red', 45)  #drawing figure skater (woman)
     triangle(-210, 80, 80, 113, 'dodger blue', 180)
     parall(-335, -3, 40, 60, 90)
     triangle(-340, -55, 80, 113, 'lime', 0)
@@ -129,7 +129,7 @@ def main():
     triangle(-257, -105, 58, 80, 'indigo', 45)
     triangle(-261, -75, 41, 58, 'gold', 225)
 
-    triangle(-270, -330, 85, 120, 'dodger blue', 45)
+    triangle(-270, -330, 85, 120, 'dodger blue', 45)  #drawing helicopter
     triangle(-273, -210, 85, 120, 'lime', 225)
     parall(-270, -207, 40, 60, 45)
     triangle(-274, -207, 58, 82, 'deep pink', 135)
