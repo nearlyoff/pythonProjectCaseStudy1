@@ -89,13 +89,13 @@ def main():
     Main function.
     :return: None
     '''
-    triangle(-300, 150, 160, 226, 'indigo',0)
+    triangle(-299, 150, 160, 226, 'gold',0)
     parall(-260, 194, 62, 80, 225)
-    triangle(-387, 151, 170, 240,'deep pink', 45)
-    triangle(-385, 394, 170, 240,'lime',315)
+    triangle(-388, 152, 170, 240,'deep pink', 45)
+    triangle(-385, 395, 170, 240,'lime',315)
     triangle(-259, 197, 55, 78, 'dodger blue', 135)
     rectangle(-297, 238, 160, 58, 'red', 45)
-    triangle(-141, 394, 58, 82, 'gold', 225)
+    triangle(-141, 394, 58, 82, 'indigo', 225)
 
     triangle(360, 220, 58, 80, 'indigo',45)
     triangle(277, 179, 80, 113, 'lime', 0)
@@ -114,8 +114,8 @@ def main():
     triangle(407, -104, 40, 57, 'deep pink', 90)
 
     triangle(250, -280, 80, 113, 'lime', 0)
-    triangle(334, -290, 80, 113, 'dodger blue', 45)
-    triangle(333, -132, 41, 58, 'indigo', 270)
+    triangle(334, -290, 85, 120, 'dodger blue', 45)
+    triangle(333, -125, 41, 58, 'indigo', 270)
     triangle(396, -290, 41, 58, 'deep pink', 135)
     rectangle(369, -259, 34, 45, 'red', 45)
     triangle(396, -290, 41, 58, 'deep pink', 135)
